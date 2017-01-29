@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Заголовок окна</title>
+        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
     <!-- Содержимое -->
         <header class="main-header">
             <div class="container">
-                <img class="logo" src="img/logo.png" width="111" height="24" alt="Барбершоп">
                 <nav class="main-navigation">
+                    <a class="logo" href="/"><img class="logo" src="img/logo.png" width="111" height="24" alt="Барбершоп"></a>
                     <ul>
                         <li>
                             <a href="#">Информация</a>
@@ -35,7 +36,7 @@
         </header>
         <main class="container">
             <div class="breadcrumbs">            
-                    <h2 class="item-title">СРЕДСТВА ДЛЯ УХОДА</h2>
+                    <h1 class="item-title">СРЕДСТВА ДЛЯ УХОДА</h1>
                     <ul>
                         <li>
                             <a href="#">ГЛАВНАЯ</a>
@@ -50,7 +51,7 @@
             </div>
             <section class="filter">
                 <div class="item-origins">
-                    <h3>ПРОИЗВОДИТЕЛИ:</h3>
+                    <p>ПРОИЗВОДИТЕЛИ:<p>
                     <ul>
                         <li>
                             <input type="checkbox" id="item-1" value="Baxter of California" checked>
@@ -79,7 +80,7 @@
                     </ul>               
                 </div>
                 <div class="item-groups">
-                    <h3>ГРУППЫ ТОВАРОВ:</h3>
+                    <p>ГРУППЫ ТОВАРОВ:</p>
                     <input type="radio" id="group-1" name="item-group">
                     <p>Бритвенные<br> 
                     принадлежности</p>
@@ -92,60 +93,71 @@
             </section>
             <section class="items">
                 <div class="item">
-                    <img src="img/item-photo-1.jpg" width="220" height="165" alt="">
-                    <p>Набор для путешествий</p> 
-                    <p>«Baxter of California»</p>
+                    <img src="img/item-photo-1.jpg" width="220" height="165" alt="Baxter of California">
+                    <h2> <a href="">
+                        <span class="item-category">Набор для путешествий</span> 
+                        <span class="item-name">«Baxter of California»</span>
+                    </a> </h2>
                     <div class="item-buy">
-                        <p>2 900 РУБ.</p>
-                        <button class="btn button-buy" type="button">Купить</button>
+                        <span>2 900 РУБ.</span>
+                        <a href="#" class="btn button-buy" >Купить</a>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="img/item-photo-2.jpg"width="220" height="165" alt="">
-                    <p>Увлажняющий кондиционер</p> 
-                    <p>«Baxter of California»</p>
+                    <img src="img/item-photo-2.jpg" width="220" height="165" alt="Baxter of California">
+                    <h2> <a href="">
+                        <span class="item-category">Увлажняющий кондиционер</span> 
+                        <span class="item-name">«Baxter of California»</span>
+                    </a> </h2>
                     <div class="item-buy">
-                        <p>750 РУБ.</p>
-                        <button class="btn button-buy" type="button">Купить</button>
+                        <span>750 РУБ.</span>
+                        <a href="#" class="btn button-buy" >Купить</a>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="img/item-photo-3.jpg" width="220" height="165" alt="">
-                    <p>Гель для волос</p>
-                    <p>«SUAVECITO»</p>
+                    <img src="img/item-photo-3.jpg" width="220" height="165" alt="«SUAVECITO»">
+                    <h2> <a href="">
+                        <span class="item-category">Гель для волос</span> 
+                        <span class="item-name">«SUAVECITO»</span>
+                    </a> </h2>
                     <div class="item-buy">
-                        <p>290 РУБ.</p>
-                        <button class="btn button-buy" type="button">Купить</button>
+                        <span>290 РУБ.</span>
+                        <a href="#" class="btn button-buy" >Купить</a>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="img/item-photo-4.jpg" width="220" height="165" alt="">
-                    <p>Глина для укладки волос</p>
-                    <p>«American crew»</p>                    
+                    <img src="img/item-photo-4.jpg" width="220" height="165" alt="«American crew»">
+                    <h2> <a href="">
+                        <span class="item-category">Глина для укладки волос</span> 
+                        <span class="item-name">«American crew»</span>
+                    </a> </h2>
                     <div class="item-buy">
-                        <p>500 РУБ.</p>
-                        <button class="btn button-buy" type="button">Купить</button>
-                    </div>
-                </div>    
-                <div class="item">
-                    <img src="img/item-photo-5.jpg" width="220" height="165" alt="">
-                    <p></p>
-                    <p>Гель для волос</p>
-                    <p>«AMERICAN CREW»</p>
-                    <div class="item-buy">
-                        <p>300 РУБ.</p>
-                        <button class="btn button-buy" type="button">Купить</button>
+                        <span>500 РУБ.</span>
+                        <a href="#" class="btn button-buy" >Купить</a>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="img/item-photo-6.jpg" width="220" height="165" alt="">
-                    <p>Набор для бритья</p>
-                    <p>«Baxter of California»</p>
+                    <img src="img/item-photo-5.jpg" width="220" height="165" alt="«AMERICAN CREW»">
+                    <h2> <a href="">
+                        <span class="item-category">Гель для волос</span> 
+                        <span class="item-name">«AMERICAN CREW»</span>
+                    </a> </h2>
                     <div class="item-buy">
-                        <p>3 900 РУБ.</p>
-                        <button class="btn button-buy" type="button">Купить</button>
+                        <span>300 РУБ.</span>
+                        <a href="#" class="btn button-buy" >Купить</a>
                     </div>
                 </div>
+                <div class="item">
+                    <img src="img/item-photo-6.jpg" width="220" height="165" alt="«Baxter of California»">
+                    <h2> <a href="">
+                        <span class="item-category">Набор для бритья</span> 
+                        <span class="item-name">«Baxter of California»</span>
+                    </a> </h2>
+                    <div class="item-buy">
+                        <span>3 900 РУБ.</span>
+                        <a href="#" class="btn button-buy" >Купить</a>
+                    </div>
+                </div>                
             </section>
             <div class="paginator">
                 <a href="#1">1</a>

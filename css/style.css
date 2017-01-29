@@ -1,0 +1,16 @@
+body {
+	font-family: PTSans;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 18px;
+}
+
+h2 {
+	line-height: 18px;
+}
