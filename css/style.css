@@ -1,16 +1,241 @@
+html,
 body {
-	font-family: PTSans;
-	color: #000000;
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 24px;
+  min-width: 1122px;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-	font-size: 30px;
-	line-height: 18px;
+.dr {
+    border: 2px dotted red;
+}
+
+.dg {
+    border: 2px dotted green;
+}
+
+.db {
+    border: 2px dotted blue;
+}
+
+.sr {
+    border: 1px dotted red;
+}
+
+.sg {
+    border: 1px dotted green;
+}
+
+.sb {
+    border: 1px dotted blue;
 }
 
 h2 {
-	line-height: 18px;
+font-family: PTSans;
+color: #000000;
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+text-align: left;
+
 }
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  border: 2px dotted red;
+}
+
+.logo {
+  float: left;
+  width: 111px;
+  height: 24px;
+  padding: 0 20px;
+
+  border: 2px dotted green;
+}
+
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  min-height: 70px;
+
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+
+  border: 2px dotted green;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+.breadcrumbs {
+  
+  border: 1px solid green;
+}
+
+.filter {
+  float: left;
+  width: 168px;
+  min-height: 570px;
+  
+
+}
+
+.catalog {
+  float: right;
+
+}
+
+.items {
+  
+  width: 726px;
+  min-height: 606px;
+}
+
+.item {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+  min-height: 286px;
+  margin-right: 10px;
+  margin-bottom: 10px;  
+}
+
+.paginator {
+  float: left;
+  padding: 20px;
+}
+
+.page {
+  width: 1200px;
+  margin: 0 auto; 
+  background: url("../img/fon.jpg"); repeat
+ /**/
+}
+
+.item-photo {
+  float: left;
+  width: 490px;
+}
+
+.item-description {
+  float: right;
+  width: 379px;  
+}
+
+.main-photo {
+  margin-bottom: 21px;
+}
+
+.small-photo {
+  margin-right: 0px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+
+  border: 2px dotted blue; 
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
